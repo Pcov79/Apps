@@ -6,7 +6,7 @@ from io import BytesIO
 from openpyxl import load_workbook
 from openpyxl.styles import PatternFill
 
-st.title("📊 Backlog Weekly Check Tool")
+st.title("💻 Backlog Weekly Check Tool📊")
 
 # Upload files
 prev_file = st.file_uploader("Upload Previous Week's Backlog", type=["xlsx"])
